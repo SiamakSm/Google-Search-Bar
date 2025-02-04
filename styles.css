@@ -5,13 +5,11 @@ button {
     font-family: Arial, sans-serif;
     color: var(--COEmY);
 }
-
 #FirstPart {
     display: flex;
     margin: auto auto 0 auto;
     padding: 12px;
 }
-
 #T {
     text-decoration: none;
     color: black;
@@ -59,7 +57,6 @@ button {
     text-align: center;
     padding-top: 100px;
 }
-
 
 
 #FourthPart {

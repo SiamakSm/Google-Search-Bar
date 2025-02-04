@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">    
     <head>
-        <title>Google </title>
+        <title>Google Images</title>
         <link rel="stylesheet" href="styles.css">
 
     </head>
     <body>
+
         <div id="FirstPart">
             <div id="about">
                 <a href="//about.google/?fg=1&utm_source=google-FR&utm_medium=referral&utm_campaign=hp-header" id="T">About</a>
@@ -15,35 +16,33 @@
             </div>
       
             <div id="image">
-                <a href="https://www.google.com/imghp?hl=fr&authuser=0&ogbl" id="T">Image</a>
+                <a href="index.html" id="T">Google</a>
             </div>
             <div id="advanced">
-                <a href="..." id="T">Advanced</a>
+                <a href="advanced.html" id="T">Advanced</a>
             </div>
         </div>
 
         <div id="SecondPart">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google" >
+            <img src="Google_Images.svg" alt="Google" >
         </div>
 
         <div id="ThirdPart">
             <div class="search-container">
                 <form action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="tbm" value="isch"> 
                     <img src="loupe.png" alt="Rechercher" id="search-icon">
                     <div class="search-box">
-                    <input type="text" name="q" class="input">
+                        <input type="text" name="q" class="input" >
                     </div>
             </div>
         </div>
         
-        <div id="FourthPart" >
+        <div id="FourthPart">
             <div class="search-buttons">
                 <input type="submit" value="Google Search" id="search-button1">
-                <button type="reset" id="search-button2">I’m Feeling Lucky</button>
             </div>
         </div>
-        </form>
 
-       
     </body>
 </html>
