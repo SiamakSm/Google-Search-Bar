@@ -7,7 +7,7 @@ button {
 }
 #FirstPart {
     display: flex;
-    margin: auto auto 0 auto;
+    margin: auto auto auto auto;
     padding: 12px;
 }
 #T {
