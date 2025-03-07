@@ -5,11 +5,13 @@ button {
     font-family: Arial, sans-serif;
     color: var(--COEmY);
 }
+
 #FirstPart {
     display: flex;
     margin: auto auto auto auto;
     padding: 12px;
 }
+
 #T {
     text-decoration: none;
     color: black;
@@ -147,10 +149,15 @@ button {
     padding: 11px 14px;
     border: 0.5px solid transparent;
     cursor: pointer;
+    color: black;
     background-color: #F8F9FA;
 }
 
 #search-button1:hover,
 #search-button2:hover {
     border-color: rgba(172, 168, 168, 0.729);
+}
+
+a:visited {
+    color: black;
 }
